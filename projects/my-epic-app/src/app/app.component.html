@@ -1,0 +1,10 @@
+<senapi-list [items]="items">
+  <ng-template si-inner-tmp let-label="label">
+    <div>
+      <h3>{{ label.title }}</h3>
+      <p>{{ label.text}}</p>
+    </div>
+  </ng-template>
+</senapi-list>
+
+<router-outlet></router-outlet>
